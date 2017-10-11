@@ -32,6 +32,14 @@ public class Book {
         this.authors = authors;
     }
 
+    public Set<Author> getAuthors() {
+        return authors;
+    }
+
+    public void setAuthors(Set<Author> authors) {
+        this.authors = authors;
+    }
+
     public Long getId() {
         return id;
     }
